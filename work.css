@@ -1,0 +1,135 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    font-size: large;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.loop:hover {
+    background-color: #9d9d9d;
+}
+
+nav {
+    background-color: gray;
+    margin-top: -20px;
+    height: 55px;
+
+    position: fixed;
+    width: 110%;
+    z-index: 1;
+}
+
+.main-contain {
+    background: linear-gradient(rgba(98, 157, 233, 0.76), transparent);
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+#nav {
+    list-style: none;
+    display: flex;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(2.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    min-height: 200vh;
+}
+
+.sub {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+#men {
+    list-style: none;
+    padding: 0;
+}
+
+.element {
+    visibility: hidden;
+    background-color: gray;
+    border-radius: 8px;
+}
+
+.elem {
+    margin-top: -3px;
+    visibility: visible;
+    background-color: rgb(159, 193, 243);
+    border-radius: 8px;
+    padding: 0px;
+}
+
+.cot {
+    transition-property: font-size;
+    transition-duration: 1s;
+    transform-style: preserve-3d;
+}
+
+.cot:hover {
+    color: black;
+    font-size: 30px;
+}
+
+.cot:hover {
+    background-color: rgb(222, 211, 233);
+
+}
+
+.secti {
+    height: 150vh;
+    width: 15%;
+    /* min-width: 50px; */
+    /* display: inline-block; */
+    border-radius: 5px;
+}
+
+.section {
+    height: 150vh;
+    width: 60%;
+    /* min-width: 50px; */
+    /* display: inline-block; */
+    border-radius: 5px;
+}
+
+.secti {
+    height: 150vh;
+    width: 25%;
+    /* min-width: 50px; */
+    /* display: inline-block; */
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+    height: 50vh;
+}
+
+.fot {
+    width: 33.25%;
+    min-width: 50px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cnot {
+    background-color: rgb(212, 206, 206);
+    border-radius: 10px;
+}
+
+.cnot:hover {
+    background-color: rgb(174, 205, 231)
+}
